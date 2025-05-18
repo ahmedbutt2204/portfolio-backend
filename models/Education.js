@@ -17,7 +17,7 @@ const EducationSchema = new mongoose.Schema({
     fieldOfStudy: {
         type: String,
         trim: true
-    },
+    }, 
     startDate: {
         type: Date,
         required: [true, 'Please add a start date']

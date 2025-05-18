@@ -87,5 +87,3 @@ exports.deleteProject = async (req, res, next) => {
     }
 };        
 
-
-

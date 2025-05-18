@@ -11,9 +11,9 @@ const EducationSchema = new mongoose.Schema({
     degree: {
         type: String,
         required: [true, 'Please add a degree or certification'],
-        trim: true
+        trim: true  
     },
-    
+
     fieldOfStudy: {
         type: String,
         trim: true

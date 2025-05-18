@@ -4,7 +4,7 @@ const router = express.Router();
 
 const {
     getExperiences,
-    getExperienceById,
+    getExperienceById,    
     createExperience,
     updateExperience,
     deleteExperience
@@ -23,5 +23,5 @@ router.route('/:id')
     .put(updateExperience)
     .delete(deleteExperience);
 
-    
+
 module.exports = router;

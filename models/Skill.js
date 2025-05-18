@@ -15,7 +15,7 @@ const SkillSchema = new mongoose.Schema({
     category: { // Optional: e.g., 'Programming Language', 'Framework', 'Tool', 'Soft Skill'
         type: String,
         trim: true
-    }
+    }      
 }, {
     timestamps: true
 });

@@ -28,6 +28,10 @@ const ProjectSchema = new mongoose.Schema({
             'Please use a valid URL with HTTP or HTTPS'
         ]
     },
+
+
+
+    
     startDate: {
         type: Date
     },
@@ -37,8 +41,14 @@ const ProjectSchema = new mongoose.Schema({
     image: { // URL to a project image/screenshot
         type: String
     }
-}, {
+}, 
+
+
+{
     timestamps: true
 });
+
+
+
 
 module.exports = mongoose.model('Project', ProjectSchema);
